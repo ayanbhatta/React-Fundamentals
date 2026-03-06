@@ -6,7 +6,8 @@ import Counter2 from "./components/Counter2";
 import ConditionalRendering from "./components/ConditionalRendering";
 import InstaPost from "./components/InstaPost";
 import NextPrev from "./components/NextPrev";
-import AccordianContainer from "./components/accordion/AccordianContainer";
+import AccordionContainer from "./components/accordion/AccordionContainer";
+import NewAccordion from "./components/accordion/NewAccordion";
 
 const App = () => {
   return (
@@ -18,7 +19,8 @@ const App = () => {
       {/* <ConditionalRendering /> */}
       {/* <InstaPost/>
       <NextPrev/> */}
-      <AccordianContainer />
+      {/* <AccordionContainerntainer /> */}
+      <NewAccordion />
     </div>
   );
 };

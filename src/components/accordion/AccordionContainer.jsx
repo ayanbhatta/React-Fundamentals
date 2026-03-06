@@ -1,7 +1,7 @@
 import React from "react";
-import AccordianCard from "./AccordianCard";
+import AccordionCard from "./AccordionCard";
 
-const AccordianContainer = () => {
+const AccordionContainer = () => {
   const data = [
     {
       question: "What is the primary purpose of 'Lifting State Up' in React?",
@@ -64,4 +64,4 @@ const AccordianContainer = () => {
   );
 };
 
-export default AccordianContainer;
+export default AccordionContainer;

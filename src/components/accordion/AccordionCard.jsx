@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const AccordianCard = ({question, answer}) => {
+const AccordionCard = ({question, answer}) => {
     let [show, setShow] = useState(false)
     console.log(question)
   return (
@@ -11,4 +11,4 @@ const AccordianCard = ({question, answer}) => {
   )
 }
 
-export default AccordianCard
+export default AccordionCard
