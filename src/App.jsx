@@ -10,6 +10,7 @@ import AccordionContainer from "./components/accordion/AccordionContainer";
 import NewAccordion from "./components/accordion/NewAccordion";
 import Products from "./components/product/Products";
 import Effect from "./components/Effect";
+import StopWatch from "./components/hooks/StopWatch";
 
 const App = () => {
   return (
@@ -24,7 +25,8 @@ const App = () => {
       {/* <AccordionContainerntainer /> */}
       {/* <NewAccordion /> */}
       {/* <Products /> */}
-      <Effect />
+      {/* <Effect /> */}
+      <StopWatch />
     </div>
   );
 };
