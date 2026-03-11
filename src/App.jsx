@@ -8,6 +8,8 @@ import InstaPost from "./components/InstaPost";
 import NextPrev from "./components/NextPrev";
 import AccordionContainer from "./components/accordion/AccordionContainer";
 import NewAccordion from "./components/accordion/NewAccordion";
+import Products from "./components/product/Products";
+import Effect from "./components/Effect";
 
 const App = () => {
   return (
@@ -20,7 +22,9 @@ const App = () => {
       {/* <InstaPost/>
       <NextPrev/> */}
       {/* <AccordionContainerntainer /> */}
-      <NewAccordion />
+      {/* <NewAccordion /> */}
+      {/* <Products /> */}
+      <Effect />
     </div>
   );
 };
