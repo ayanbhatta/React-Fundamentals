@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import "./App.css";
 const InfoCard = () => {
   let [data, setData] = useState({ name: "Ayan", age: 22, roll: 101 });
   let { name, age, roll } = data;
@@ -7,7 +7,7 @@ const InfoCard = () => {
     setData({ name: "Atul", age: 26, roll: 105 });
   };
   return (
-    <div>
+    <div className="text-center border border-indigo-600 w-64 h-64 items-center justify-center bg-gray-200">
       <h1>Name is {name}</h1>
       <h1>Rollno is {age}</h1>
       <h1>Age is {roll}</h1>

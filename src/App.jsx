@@ -11,6 +11,8 @@ import NewAccordion from "./components/accordion/NewAccordion";
 import Products from "./components/product/Products";
 import Effect from "./components/Effect";
 import StopWatch from "./components/hooks/StopWatch";
+import RefEx from "./components/hooks/RefEx";
+import RefCalculator from "./components/hooks/RefCalculator";
 
 const App = () => {
   return (
@@ -26,7 +28,10 @@ const App = () => {
       {/* <NewAccordion /> */}
       {/* <Products /> */}
       {/* <Effect /> */}
-      <StopWatch />
+      {/* <StopWatch /> */}
+      {/* <RefEx/> */}
+      {/* <RefCalculator/> */}
+      <InfoCard />
     </div>
   );
 };
